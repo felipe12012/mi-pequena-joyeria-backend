@@ -87,7 +87,7 @@ Body:
 
 ## 📝 Notas
 
-- Los datos se pierden al cerrar la app (BD en memoria)
+- Los datos se mantienen en memoria
 - Usa `@Entity` para generar la tabla `Product` automáticamente
 - El backend permite Cross-Origin para conexión con frontend (CORS)
 
