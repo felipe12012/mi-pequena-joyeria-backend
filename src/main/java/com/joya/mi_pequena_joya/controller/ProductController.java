@@ -30,6 +30,6 @@ public class ProductController{
     @PostMapping("/{id}/sell")
     public String sellProduct(@PathVariable Long id, @RequestBody SellRequest request) {
         boolean success = service.sellProduct(id, request.getQuantity());
-        return success ? "sold successfully" : "Error: not enough stock";
+        return success ? "Ok: Vendido correctamente" : "Error: sin Stock";
     }
 }
