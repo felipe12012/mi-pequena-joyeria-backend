@@ -78,8 +78,8 @@ Body:
 
 ## 💾 Acceso a base de datos H2
 
-- URL: `http://localhost:8080/h2-console`
-- JDBC: `jdbc:h2:mem:joyadb`
+- URL: `http://localhost:8080/api/v1/h2-console`
+- JDBC: `jdbc:h2:file:./data/joyadb`
 - Usuario: `sa`
 - Contraseña: *(vacía)*
 
